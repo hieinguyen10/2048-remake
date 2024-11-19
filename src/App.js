@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import BoardView from "./components/BoardView"
+import "./main.css"
+import "./styles.css"
+import backgroundVideo from "./assets/img/background-app.mp4"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    return (
+        <div className="App">
+            <video autoPlay muted loop className="backgroundVideo">
+                <source src={backgroundVideo} type="video/mp4"></source>
+            </video>
+            <h1 className="header">2048</h1>
+            <BoardView />
+        </div>
+    )
 }
 
-export default App;
+export default App
