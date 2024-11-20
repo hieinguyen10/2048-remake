@@ -1,7 +1,7 @@
-/*@font-face {
-  font-family: "Clear Sans";
-  src: url("../src/clear-sans.ttf") format("truetype");
-}*/
+@font-face {
+  font-family: "3D Adventure";
+  src: url("./fonts/3D-venture.ttf") format("truetype");
+}
 
 html, body {
   margin: 0;
@@ -26,6 +26,12 @@ html, body {
   width: 100%;
   height: 100vh;
   overflow: hidden;
+}
+
+.header {
+  font-family: "3D Adventure";
+  font-size: 5em;
+  color: yellow;
 }
 
 .backgroundVideo {
@@ -61,22 +67,11 @@ html, body {
   outline: none;
   position: relative;
   background-color: transparent;
-  clip-path: polygon(5% 0, 95% 0, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%, 0 5%);
-}
-
-.board::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #cbbed5; /* Background color for the board */
-  clip-path: inherit; /* Match the clip-path of the .board */
-  filter: blur(10px); /* Blur the background */
-  z-index: -1; /* Place it behind the .board content */
-  pointer-events: none; /* Prevent interaction */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 6px 6px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+  box-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: transparent; /* Ensures no unwanted background */
+  z-index: 1;
 }
 
 .board .cell,
@@ -99,20 +94,16 @@ html, body {
   font-weight: bold;
   text-align: center;
   vertical-align: middle;
-  clip-path: polygon(10% 0, 90% 0, 100% 10%, 100% 90%, 90% 100%, 10% 100%, 0 90%, 0 10%);
   font-family: "Clear Sans";
-  background-color: #729fdb;
-}
-
-.cell {
-  background-color: black;
 }
 
 .tile {
+  margin: 5px;
   position: absolute;
   z-index: 1;
   background-repeat: no-repeat;
   background-size: cover;
+  filter: drop-shadow(0 0 2px #000) drop-shadow(0 0 3px #242424) drop-shadow(0 0 4px #4e4e4e);
 }
 
 .tile0 {

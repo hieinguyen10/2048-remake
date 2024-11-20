@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Tile from "./Tile";
-import Cell from "./Cell";
+import Tile from "./Tile.js";
+import Cell from "./Cell.js";
 import { Board } from "../helper/index.js";
 import useEvent from "../hooks/useEvent.js";
 
