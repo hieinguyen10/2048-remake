@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/2048-remake/static/css/main.156e6a2d.css",
+    "main.js": "/2048-remake/static/js/main.4236abb0.js",
+    "static/media/background-app.mp4": "/2048-remake/static/media/background-app.833792928191240bf0c9.mp4",
+    "static/media/trophy.png": "/2048-remake/static/media/trophy.0a8688bee82443414043.png",
+    "static/media/2048.png": "/2048-remake/static/media/2048.714fd476ed6517c66e33.png",
+    "static/media/1024.png": "/2048-remake/static/media/1024.cf3002084e796a2d91f4.png",
+    "static/media/score.png": "/2048-remake/static/media/score.a990cff1925353c8626b.png",
+    "static/media/04B_30__.TTF": "/2048-remake/static/media/04B_30__.cb829af0ad882093769c.TTF",
+    "static/media/512.png": "/2048-remake/static/media/512.30c9f53045f47ea75a83.png",
+    "static/media/128.png": "/2048-remake/static/media/128.8e86943162c242d8eb44.png",
+    "static/media/16.png": "/2048-remake/static/media/16.537122a0ba99fb4b11c3.png",
+    "static/media/32.png": "/2048-remake/static/media/32.e9d29bed4c50d4c769fa.png",
+    "static/media/256.png": "/2048-remake/static/media/256.7e294afc1f111e502d25.png",
+    "static/media/64.png": "/2048-remake/static/media/64.6c44973258fcce7dac8c.png",
+    "static/media/4.png": "/2048-remake/static/media/4.48b27f9a0fd555ef207a.png",
+    "static/media/handIcon.png": "/2048-remake/static/media/handIcon.f6b3f19bb113731146ce.png",
+    "static/media/8.png": "/2048-remake/static/media/8.223f27eba0732be72ee7.png",
+    "static/media/2.png": "/2048-remake/static/media/2.fed3da30a5d19e8a252d.png",
+    "index.html": "/2048-remake/index.html",
+    "main.156e6a2d.css.map": "/2048-remake/static/css/main.156e6a2d.css.map",
+    "main.4236abb0.js.map": "/2048-remake/static/js/main.4236abb0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.156e6a2d.css",
+    "static/js/main.4236abb0.js"
+  ]
+}
