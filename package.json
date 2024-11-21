@@ -1,6 +1,6 @@
 {
-  "homepage": "https://hieinguyen10.github.io/2048-remake",
   "name": "2048",
+  "homepage": "https://hieinguyen10.github.io/2048-remake",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
