@@ -21,9 +21,9 @@ html, body {
   align-content: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: "Clear Sans", sans-serif;
   font-size: 42px;
   width: 100%;
+  padding-top: 50px;
   min-height: 100vh;
   overflow: auto;
 }
