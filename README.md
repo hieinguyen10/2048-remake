@@ -1,8 +1,9 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Alt Text](./src/screenshots/screen2.png)
 
-## Available Scripts
+# 2048 Pixel
+
+A clone of the game 2048 bult with React.
 
 In the project directory, you can run:
 
